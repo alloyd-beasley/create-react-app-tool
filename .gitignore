@@ -1,0 +1,4 @@
+.env
+TASK_README.md
+/node_modules/
+.vscode

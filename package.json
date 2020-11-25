@@ -1,0 +1,40 @@
+{
+  "name": "exposed-react-app",
+  "version": "1.0.0",
+  "description": "Tool to create react application scaffolding using custom templates and packages.",
+  "main": "main.ts",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.0",
+    "babel-jest": "^25.1.0",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test & jest",
+    "build": "tsc",
+    "create": "cd ./scripts && ts-node main.ts"
+  },
+  "jest": {
+    "automock": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewLBeasley/custom-create-react-app.git"
+  },
+  "author": "Andrew Beasley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewLBeasley/custom-create-react-app/issues"
+  },
+  "homepage": "https://github.com/AndrewLBeasley/custom-create-react-app#readme"
+}
