@@ -2,9 +2,6 @@
 Tool to create react application scaffolding using custom templates and packages.
 This tool is a work in progress.
 
-TODO:
-- finish generation sequence
-- flesh out tests, add more tests
 
 ## npm install
 Installs dependencies.
